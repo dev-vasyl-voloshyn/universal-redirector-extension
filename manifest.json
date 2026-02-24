@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Redirector",
+  "version": "1.0",
+  "description": "Open current page via redirect service",
+  "permissions": ["tabs", "storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open via Redirect",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_page": "options.html"
+}
