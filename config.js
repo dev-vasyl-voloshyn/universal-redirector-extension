@@ -1,1 +1,1 @@
-const DEFAULT_REDIRECT = "https://your-site.com/redirect?hash=";
+const DEFAULT_REDIRECT = "https://workspace.nnctrack.com/redirect?hash=";
